@@ -6,4 +6,4 @@ const [month, day, year] = [
     date.getFullYear(),
   ];
 
-console.log(year + '年' + month + '月' + day + '日');
+console.log(year + '年' + (month + 1) + '月' + day + '日');
